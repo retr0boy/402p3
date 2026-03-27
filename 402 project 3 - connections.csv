@@ -19,4 +19,4 @@ Pololu 25D with Encoder,Red,,,Connect to M1OUT1
 IMU (AltIMU-10 v5),VIN,3.3V,1,ONLY 3.3V
 ,SDA,GPIO 2,3,I2C data line
 ,SCL,GPIO 3,5,I2C clock line
-,GND,,,Common ground
+,GND,,,Common ground(use RPi GND)
