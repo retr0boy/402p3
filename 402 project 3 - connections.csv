@@ -1,5 +1,5 @@
 Device,Pin on device,Raspberry Pi BCM Pins,RPi Physical pin,Notes
-Power Supply ,VIN (Driver),,,6V 5A
+Power Supply ,VIN,,,6V 5A
 ,GND,Ground,"6, 9, 14, 20...",Common ground
 Driver MC33926,M1D2 (PWM),GPIO 12,32,Hardware PWM
 ,M1D1 ,Ground,,Active Low
@@ -8,6 +8,8 @@ Driver MC33926,M1D2 (PWM),GPIO 12,32,Hardware PWM
 ,M1EN,GPIO 22,15,Turn on the motor (Active High)
 ,M1OUT1,,,Connect to Red
 ,M1OUT2,,,Connect to Black
+,VIN,,,Connect to Power Supply 6V
+,GND,,,Connect to Power Supply GND
 Pololu 25D with Encoder,Red,,,Connect to M1OUT1
 ,Black,,,Connect to M1OUT2
 ,Green,,,Connect to Ground
