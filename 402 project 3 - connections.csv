@@ -1,0 +1,19 @@
+Device,Pin on device,Raspberry Pi BCM Pins,RPi Physical pin,Notes
+Power Supply ,VIN (Driver),,Внешний АКБ,6V 5A
+,GND,Ground,"6, 9, 14, 20...",Common ground
+Драйвер MC33926,M1D2 (PWM),GPIO 12,32,Hardware PWM
+,M1D1 ,Ground,,Active Low
+,M1IN1,GPIO 24,18,Direction
+,M1IN2,GPIO 23,16,Direction
+,M1EN,GPIO 22,15,Turn on the motor (Active High)
+,M1OUT1,,,Connect to Red
+,M1OUT2,,,Connect to Black
+Pololu 25D with Encoder,Red,,,Connect to M1OUT1
+,Black,,,Connect to M1OUT2
+,Green,,,Connect to Ground
+,Blue,,,Connect to 6V
+,Yellow,GPIO 17,11,Through voltage divider (4.7к / 9.8к)
+,White,GPIO 27,13,Through voltage divider  (4.7к / 9.8к)
+IMU (AltIMU-10 v5),VIN,3.3V,1,ONLY 3.3V
+,SDA,GPIO 2,3,I2C data line
+,SCL,GPIO 3,5,I2C clock line
