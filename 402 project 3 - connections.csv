@@ -6,7 +6,7 @@ Driver MC33926,M1D2 (PWM),GPIO 12,32,Hardware PWM
 ,M1IN1,GPIO 24,18,Direction
 ,M1IN2,GPIO 23,16,Direction
 ,M1EN,GPIO 22,15,Turn on the motor (Active High)
-,M1OUT1,,,Connect to Red
+Green terminals on driver,M1OUT1,,,Connect to Red
 ,M1OUT2,,,Connect to Black
 ,VIN,,,Connect to Power Supply 6V
 ,GND,,,Connect to Power Supply GND
