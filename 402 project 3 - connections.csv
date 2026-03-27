@@ -1,7 +1,7 @@
 Device,Pin on device,Raspberry Pi BCM Pins,RPi Physical pin,Notes
 Power Supply ,VIN (Driver),,Внешний АКБ,6V 5A
 ,GND,Ground,"6, 9, 14, 20...",Common ground
-Драйвер MC33926,M1D2 (PWM),GPIO 12,32,Hardware PWM
+Driver MC33926,M1D2 (PWM),GPIO 12,32,Hardware PWM
 ,M1D1 ,Ground,,Active Low
 ,M1IN1,GPIO 24,18,Direction
 ,M1IN2,GPIO 23,16,Direction
